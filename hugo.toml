@@ -1,4 +1,35 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-gb'
 title = 'HITar'
+keywords = ['HITar', 'AIM', 'augmented guitar', 'music AI', 'percussive guitar', 'percussive fingerstyle']
 theme = 'onelou'
+description = "The augmented guitar with the brain of a drum"
+
+[params]
+[params.opengraph]
+_merge = 'none'
+twitter = 'https://twitter.com/the_hitar'
+facebook = 'https://instagram.com/the_hitar'
+[params.footer]
+hidePowered = true
+since = 2023
+copyright = 'HITar'
+[params.prefix]
+h2 = ""
+h3 = ""
+
+[menu]
+#[[menu.navs]]
+#_merge = 'none'
+[[menu.navs]]
+name = 'About'
+url = '/about'
+weight = 3
+[menu.navs.params]
+img = '/img/logo3.png'
+[[menu.navs]]
+name = 'News'
+url = '/post'
+weight = 3
+[menu.navs.params]
+img = '/img/logo3.png'

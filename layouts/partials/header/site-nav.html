@@ -1,0 +1,9 @@
+<div class="main-image"><img src="img/logo_main.png"></div>
+<div class="site-nav">
+    {{ range .Site.Menus.navs }}
+    <a href="{{ .URL }}">
+        <img src="{{ .Params.img }}" alt="">
+        {{ .Name }}
+    </a>
+    {{ end }}
+</div>
