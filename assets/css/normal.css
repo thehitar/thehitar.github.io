@@ -28,12 +28,12 @@
 }
 
 .center_home img {
-    width: 50%
+    width: 600px
 }
 
-.mailchimp_form {
+/*.mailchimp_form {
     width: 60%
-}
+}*/
 
 .center_home h1 {
     font-size: 6rem;

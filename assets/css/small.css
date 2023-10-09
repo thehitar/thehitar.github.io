@@ -17,19 +17,20 @@
 
 .center_home {
     position: fixed;
-    text-align: center;
+    text-align: left;
     top: 5%;
     width: 100%;
     color: var(--font-color);
 }
 
 .center_home img {
-    width: 50%
+    width: 600px;
+    box-align: left;
 }
 
-.mailchimp_form {
+/*.mailchimp_form {
     width: 60%
-}
+}*/
 
 .center_home h1 {
     padding: 0;
@@ -42,6 +43,7 @@
 .site-nav {
     /* display: inline-flex; */
     margin-top: 2em;
+    width: 600px;
 }
 
 .site-nav a {
