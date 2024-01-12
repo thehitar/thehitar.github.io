@@ -1,81 +1,47 @@
 .center {
     width: 100%;
     padding: 5%;
-}
-
-.center_main_contents_left {
-    display: none;
-}
-
-.center_main_contents_title {
-    display: none;
-}
-
-.center_main_contents_main {
-    display: none;
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 .center_home {
-    position: fixed;
+    position: relative; /* Changed from fixed to relative */
     text-align: left;
     top: 5%;
-    width: 100%;
+    width: 90%; /* Adjust width to prevent overflow */
     color: var(--font-color);
+    margin: 0 auto; /* Center the content */
 }
 
 .center_home img {
-    width: 600px;
+    max-width: 100%; /* Ensure images are not wider than screen */
+    height: auto; /* Maintain aspect ratio */
     box-align: left;
 }
 
-/*.mailchimp_form {
-    width: 60%
-}*/
-
-.center_home h1 {
-    padding: 0;
-    margin: 0;
-}
-
-.center_main_projects_list {
-}
-
 .site-nav {
-    /* display: inline-flex; */
     margin-top: 2em;
-    width: 600px;
+    width: auto; /* Adjust width */
+    display: block; /* Change to block for stacking links vertically */
+    text-align: center; /* Center the navigation links */
 }
 
 .site-nav a {
-    margin: 0.25em 1em;
+    margin: .25em auto; /* Adjust margin for vertical stacking */
     color: var(--font-color);
     background: var(--scorllbar-color);
     text-decoration: none;
-    padding: 0.75em 1.75em 0.75em 1.5em;
+    padding: .75em 1.75em;
     border-radius: 1.5em;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    text-align: center;
-}
-
-.site-nav a:hover {
-    background: var(--content-background-color);
+    display: block; /* Make each link a block to stack vertically */
+    width: fit-content; /* Adjust width to content */
 }
 
 .site-nav img {
-    display: none;
+    display: none; /* Hide images if they are causing overflow */
 }
 
 .content_post img {
     max-width: 100%;
-    width: 100%;
-}
-
-.highlight-type {
-    display: none;
-}
-
-.top {
-    display: none;
+    width: auto; /* Adjust width to be responsive */
 }

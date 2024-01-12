@@ -2,7 +2,7 @@
 title: "HITar at SynthFest 2023"
 date: 2023-10-07
 draft: false
-tag: "midi awards"
+tag: ["midi awards", "synthfest", trade shows"]
 ---
 ## HITar exhibits at SynthFest 2023
 

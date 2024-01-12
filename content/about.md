@@ -22,3 +22,7 @@ The HITar supports virtual instruments based on physical models or sample librar
 ### Hear the HITar as a MIDI controller
 
 {{< youtube oyjAZzyeWxA >}}
+
+### The HITar in a band setting: Caravan
+
+{{< youtube Ips0eZp4tOs >}}
